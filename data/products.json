@@ -1,0 +1,20 @@
+﻿{
+  "products": [
+    {
+      "product_id": "master_buds_1",
+      "name": "Master Buds 1",
+      "competitor_group": "target",
+      "urls": [
+        "https://www.amazon.in/Noise-Bluetooth-Adaptive-Immersive-Playtime/dp/B0FH73TTNN"
+      ]
+    },
+    {
+      "product_id": "master_buds_max",
+      "name": "Master Buds Max",
+      "competitor_group": "competitor",
+      "urls": [
+        "https://www.amazon.in/Noise-Wireless-Over-Ear-Headphones-Immersive/dp/B0F8HP1HBR"
+      ]
+    }
+  ]
+}

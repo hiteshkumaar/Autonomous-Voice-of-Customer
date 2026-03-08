@@ -1,0 +1,28 @@
+﻿services:
+  - type: cron
+    name: voc-weekly-ingestion
+    runtime: python
+    schedule: "0 2 * * 0"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python -m voc_agent.pipeline"
+    envVars:
+      - key: PRODUCT_CONFIG_PATH
+        value: data/products.json
+      - key: DB_PATH
+        value: /var/data/voc_reviews.db
+      - key: OUTPUT_DIR
+        value: /var/data/outputs
+      - key: NOTIFY_ON_ZERO_DELTA
+        value: "false"
+      - key: CLAWDBOT_API_KEY
+        sync: false
+      - key: CLAWDBOT_BASE_URL
+        sync: false
+      - key: CLAWDBOT_MODEL
+        sync: false
+      - key: PRODUCT_TEAM_WEBHOOK_URL
+        sync: false
+      - key: MARKETING_TEAM_WEBHOOK_URL
+        sync: false
+      - key: SUPPORT_TEAM_WEBHOOK_URL
+        sync: false

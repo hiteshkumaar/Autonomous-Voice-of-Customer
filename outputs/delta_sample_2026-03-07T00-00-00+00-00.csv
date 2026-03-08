@@ -1,0 +1,5 @@
+﻿product_id,review_id,rating,review_date,sentiment,themes,review_title,review_text
+master_buds_1,delta001,2,2026-03-01,Negative,ANC|App Experience,ANC got worse after update,After firmware update ANC now has hiss noise.
+master_buds_1,delta002,5,2026-03-02,Positive,Comfort/Fit,Superb fit improvement,New ear tips made the comfort much better.
+master_buds_max,delta003,5,2026-03-01,Positive,Battery Life,Battery praise this week,Still getting great battery backup after one month.
+master_buds_max,delta004,2,2026-03-03,Negative,App Experience|Build Quality,Pairing became unstable,Bluetooth disconnects randomly after calls.
